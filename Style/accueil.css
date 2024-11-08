@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+header{
+    background-color: rgba(0,0,0,0.9) ;  
+    position: fixed;
+    width: 100%;
+}
+header .entete{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+header nav{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+header nav a{
+    text-decoration: none;
+    margin-right: 25px;
+    color: beige;
+    font-family: helvetica;
+    transition: 2s;
+
+
+}
+header nav a:hover{
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+header nav button{
+   background-color: cadetblue;
+   border: 0;
+   border-radius: 5px;
+   padding: 4px;
+   color: white;
+}
+header nav button:focus{
+    background-color: white;
+    color: black;
+}
+.logo{
+    margin-right: 30px;
+}
+.logo h2{
+  font-family:cursive;
+  font-weight: bold;
+  color: white;
+}
+.search{
+    margin-right: 30px;
+}
+.search input{
+   border: none;
+   padding: 4px;
+   border-radius: 5px;
+}
+.access {
+    background-color: blue;
+    padding: 2.3px;
+    border-radius: 5px;
+}
+.access a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+main section{
+    padding-top: 100px;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(243, 243, 140, 0.959);
+}
+main section article{
+    width: 90%;
+    height: 25vh;
+    /*box-shadow: 0px 0px 5px blueviolet;*/
+    margin: auto;
+    
+}
+main section article p{
+     display: flex;
+     justify-content: center;
+     font-family: helvetica;
+     padding-top: 70px;
+     font-size: 2rem;
+}
+main section .card{
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+}
+main section .card .card1{
+    width: 33%;
+    height: 50vh;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    transition: 3s;
+
+}
+main section .card .card1:hover{
+    transform: scale(1.14);
+    background-color: rgb(147, 147, 250);
+    color: white;
+}
+main section .card .card1 .partie{
+    display: flex;
+    gap: 30px;
+}
+main section .card .card1 .partie .part2{
+    width: 50%;
+}
+main section .card .card1 .partie .part2 img{
+    width: 100%;
+    height: 18vh;
+}
+main section .card .card1 h3{
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration:underline green;
+}
+main section .card .card2{
+    width: 33%;
+    height: 50vh;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    transition: 3s;
+
+}
+main section .card .card2:hover{
+    transform: scale(1.14);
+    background-color: rgb(147, 147, 250);
+    color: white;
+    
+}
+main section .card .card3 img{
+    width: 100%;
+    height:40vh ;
+}
+main section .card .card3{
+    width: 33%;
+    height: 50vh;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    transition: 3s;
+
+}
+main section .card .card3:hover{
+    transform: scale(1.14);
+    background-color: rgb(147, 147, 250);
+    color: white;
+}

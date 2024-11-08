@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="Style/accueil.css">
+    <style>
+        .slide-text{
+            display: inline-block;
+            position: unset;
+            white-space: nowrap;
+            font-size: 24px;
+            animation: slide 50s linear infinite;
+            position: relative;
+            height: 20vh;
+        }
+        @keyframes slide{
+            0%{
+                transform: translateX(10%);
+                background-image: url(Image/11061.webp);
+                background-size: 100%;
+            }
+            50%{
+                transform: translateX(200%);
+                background-image: url(Image/10.jpg);
+                background-size: 100%;
+            }
+            80%{
+                background-image: url(Image/moteur.jpg);
+                background-size: 100%;
+            }
+            90%{
+                background-image: url(Image/bougie-moto.jpg);
+                background-size: 100%;
+                
+            }
+            100%{
+                background-image: url(Image/thumb-816x460-fbdc6c072d4eb47fca582a4e095aea67.jpg);
+                background-size: 100%;
+            }
+        }
+        .container{
+            overflow: hidden;
+            white-space: nowrap;
+            width: 100%;
+            height: 30vh;
+            padding: 10px;
+        }
+    </style>
+   
+</head>
+<body>
+    <header>
+       <div class="entete">
+        <div class="logo"> <h2><strong>Ets <span style="font-size: 2rem;text-shadow: 0px 0px 20px rgb(243, 231, 231);">S</span>HALOM</strong></h2></div>
+        <div class="search">
+            <form action="" method="post">
+                <input type="search" placeholder="Recherche">
+            </form>
+        </div>
+        <div class="access"> 
+            <a href="#">Essaie gratuit du 30 jours <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+              </svg></a></div>
+    </div>
+        <nav>
+            <a href="#"> <svg  style="width: 15px;background-color:white;color:white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M543.8 287.6c17 0 32-14 32-32.1c1-9-3-17-11-24L512 185l0-121c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32l0 36.7L309.5 7c-6-5-14-7-21-7s-15 1-22 8L10 231.5c-7 7-10 15-10 24c0 18 14 32.1 32 32.1l32 0 0 160.4c0 35.3 28.7 64 64 64l320.4 0c35.5 0 64.2-28.8 64-64.3l-.7-160.2 32 0zM288 160a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM176 400c0-44.2 35.8-80 80-80l64 0c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16l-192 0c-8.8 0-16-7.2-16-16z"/></svg>   Accueil</a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash" viewBox="0 0 16 16">
+                <path d="M6.5 7a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1z"/>
+                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+              </svg> Nos services</a>
+              <i style="background-color: aliceblue;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filter" viewBox="0 0 16 16">
+                <path d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5m-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+              </svg></i>
+            <a  href="#">Apropos</a>
+            <a href="#">  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-text" viewBox="0 0 16 16">
+                <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6m0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+              </svg> Contact</a>
+            <form action=""> <button type="submit">Connexion</button> </form>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <div class="container">
+                    <span class="slide-text">
+                       Bienvenue sur ce site, consulter nos produits et acheter
+                    </span>
+                </div>
+            </article>
+            <p style="padding: 6px; background-color: white;margin: 10px;width: 98%;">Contamplez,consultez ces dont nous possedons dans notre etablissement par ce site </p>
+            <div class="card">
+                <div class="card1">
+                  <h3>Nos categories</h3>
+                  <div class="partie">
+                    <div class="part2">
+                        <h4>moteur</h4>
+                        <img src="Image/moteur.jpg" alt="">
+                    </div>
+                    <div class="part2">
+                        <h4>Muship</h4>
+                        <img src="Image/muship.jpg" alt="">
+                    </div>
+                    
+                  </div>
+                  <div class="partie">
+                    <div class="part2">
+                        <h4>Hameçon</h4>
+                        <img src="Image/hameçon.jpg" alt="">
+                    </div>
+                    <div class="part2"> 
+                        <h4>Téléphones</h4>
+                        <img src="Image/oppo-a3s.jpg" alt="">
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="card2">
+                    <h3>Bougies</h3>
+                    <img src="Image/bougie-moto.jpg" alt="">
+                </div>
+                <div class="card3">
+                    <h3>Eaux</h3>
+                    <img src="Image/eau.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <svg style="width: 40px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+
+    
+    
+    
+</body>
+</html>
